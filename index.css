@@ -1,0 +1,27 @@
+.box-container {
+    float: left;
+    margin-left: 10px;
+    position: relative;
+}
+
+.box-container:first-child {
+    margin-left: 0;
+}
+
+.box {
+    width: 200px;
+    height: 200px;
+    background: lightgrey;
+    margin-bottom: 10px;
+}
+
+.box.active {
+    background-color: purple;
+}
+
+.btn-box-toggle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
